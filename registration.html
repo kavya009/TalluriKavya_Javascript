@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sign up</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <script type="text/javascript" src="javascript.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form class="reg-form" onsubmit="return validateForm();">
+        <div class="header">
+          <i class="fas fa-graduation-cap"></i>
+          <p>Sign up</p>
+        </div>
+        <div class="detail">
+          <input type="text" id="name" placeholder="Name">
+          <span class="fas fa-user"></span>
+        </div>
+        <br>
+        <div class="detail">
+          <input type="text" id="email" placeholder="mail@example.com">
+          <span class="fas fa-envelope"></span>
+        </div>
+        <br>
+        <div class="detail">
+          <input type="password" id="password" placeholder="Password">
+          <span class="fas fa-unlock"></span>
+        </div>
+        <br>
+        <div class="detail">
+          <input type="password" id="cpassword" placeholder="Confirm password">
+          <span class="fas fa-unlock"></span>
+        </div>
+        <br>
+        <div class="detail">
+          <input type="text" id="number" placeholder="Phone number">
+          <span class="fa fa-phone"></span>
+        </div>
+        <br>
+        <div class="detail">
+          <input type="date" id="date" placeholder="DOB: ">
+        </div>
+        <br>
+        <input type="submit" class="btn btn-signup" id="error" value="SIGN UP">
+        <div class="links">
+          <label for="alreadyHaveAcc">Already have an account?</label>
+          <a href="#" id="alreadyHaveAcc">Login</a>
+        </div><br>
+        <div class="Or">
+          <div class="col-5">
+            <hr>
+          </div>
+          <h6>OR</h6>
+          <div class="col-6">
+            <hr>
+          </div>
+        </div>
+      </form>
+        <button name="fbbutton" class="btn btn-facebook">f</button>
+    
+        <button name="g+button" class="btn btn-google">g</button>
+        
+        <button name="epambutton" class="btn btn-epam"><span>< EPAM REGISTER ></span></button>
+    </div>
+  </div>
+  </body>
+</html>
